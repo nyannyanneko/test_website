@@ -1,0 +1,191 @@
+<!DOCTYPE HTML>
+<html>
+
+<!-- CSS styling start -->
+
+<style>
+</style>
+
+<!-- CSS styling end -->
+
+<!-- page info start  -->
+
+<head>
+<title id="page title">This is my starter test project</title>
+</head>
+
+<!-- page info end -->
+
+<!-- page contents start -->
+
+<body>
+
+<!-- header start -->
+
+<div>
+<header>
+  <h1 id="heading">My starter test project</h1>
+</header>
+</div>
+
+<!-- header end -->
+
+<!-- navigation start -->
+
+<Div>
+  <nav id="nav sub-heading">
+      <table border="1">
+        <thead>
+          <tr>
+            <td><a href="#purpose sub-heading">Purpose of this site</a></td>
+            <td><a href="#who am i sub-heading">Who am I</a></td>
+            <td><a href="#currently learning sub-heading">Currently Learning</a></td>
+            <td><a href="#media sub-heading">Media</a></td>
+            <td><a href="#quiz sub-heading">Quiz</a></td>
+            <td><a href="#contact sub-heading">Contact me</a></td>
+          </tr>
+        </thead>
+      </table>
+  </nav>
+</div>
+
+<!-- navigation end -->
+
+<!-- Purpose start -->
+
+<div>
+  <h2 id="purpose sub-headding">Purpose of this site</h2>
+  <p id="purpose">This is a test website for me to practice my skills in using html and css, and hopefully javascript later on; essentially a sandbox for me to build a site.</p>
+</div>
+
+<!-- purpose end -->
+
+<!-- who am i start -->
+
+<div>
+    <h2 id="who am i sub-heading">Who am I</h2>
+  <p id="who am i">I am really just somebody who is trying to learn how to code.</p>
+</div>
+
+<!-- who am i end -->
+
+<!-- currently learning start -->
+<div>
+  <h2 id="currently learning sub-heading">Currently Learning</h2>
+  <ul>
+    <li>HTML</li>
+    <li>CSS</li>
+  </ul>
+</div>
+<!-- currently learning end -->
+
+<!-- Test photos start -->
+
+<div>
+  <h2 id="media sub-heading">Media</h2>
+  <img src="http://japan-magazine.jnto.go.jp/jnto2wm/wp-content/uploads/1608_special_TOTO_main.jpg" width="560" height="315" alt="mount fuji">
+  <br />
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/OIc_1mQABOA" frameborder="0" allowfullscreen>
+    <p>If page does not show, follow this link: <a href="https://www.youtube.com/embed/OIc_1mQABOA"></a></p>
+  </iframe>
+</div>
+
+<!-- test photos end -->
+
+<!-- quiz start --->
+
+<div>
+  <h2 id="quiz sub-heading">Quiz Time!</h2>
+  <form>
+    <fieldset>
+      <legend>Quiz</legend>
+<!-- Q1 start -->
+    <p>1. In which <strong>country</strong> was the photo above taken?</p>
+    <p>
+      <label><input type="radio" name="fujisan"> &nbsp; Japan</label>
+        <br>
+      <label><input type="radio" name="fujisan"> &nbsp; Tokyo</label>
+        <br>
+      <label><input type="radio" name="fujisan"> &nbsp; Shizuoka</label>
+    </p>
+<!-- Q1 end -->
+<!-- Q2 start -->
+    <p>2. What words would you use to describe the photo?</p>
+    <p>
+      <label><input type="checkbox" name="describe"> &nbsp; Beautiful</<label>
+        <br>
+      <label><input type="checkbox" name="describe"> &nbsp; Breathtaking</<label>
+        <br>
+      <label><input type="checkbox" name="describe"> &nbsp; Zen</<label>
+        <br>
+    </p>
+<!-- Q2 end -->
+<!-- Q3 start -->
+    <p>3. How would you rate the photo?</p>
+    <p>
+      <select>
+        <option value="5">5</option>
+        <option value="4">4</option>
+        <option value="3">3</option>
+        <option value="2">2</option>
+        <option value="1">1</option>
+      </select>
+    </p>
+<!-- Q3 end -->
+<!-- Q4 start -->
+    <p>4. If you were to go to the location in the photo, when would you go?</p>
+    <p>
+      <input type="date" name="date">
+    </p>
+<!-- Q4 end -->
+<!-- Q5 start -->
+    <p>5. If you have a month off, how many days would you spend there?</p>
+    <p>
+      <label>Number of days to spend: &nbsp; <input type="number" name="length of stay" min="1" max="30">
+    </p>
+<!-- Q5 end -->
+<!-- submit answers start-->
+    <button type="submit">submit answers</button>
+<!-- submit answers end-->
+</fieldset>
+  </form>
+</div>
+
+<!-- quiz end -->
+
+<!-- contact form start -->
+
+<div>
+  <h2 id="contact sub-heading">Contact me</h2>
+  <form action="/server" method="post">
+    <fieldset>
+      <legend>Contact Form</legend>
+    <div>
+      <input id="name" name="name" type="text" placeholder="Your Name">
+    </div>
+    <div>
+      <input id="email" name="email" type="email" placeholder="Your Email Address">
+    </div>
+    <div>
+      <textarea id="message" name="message" placeholder="Your message"></textarea>
+    </div>
+  <button type="submit">Send your message</button>
+</fieldset>
+</form>
+</div>
+
+<!-- contact form end -->
+
+<!-- footer start -->
+
+<footer>
+  <p>disclaimer</p>
+</footer>
+
+<!-- footer end -->
+
+</body>
+
+<!-- page contents end -->
+
+</html>
